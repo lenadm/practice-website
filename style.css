@@ -84,11 +84,27 @@ a {
     margin-top: 5px;
 }
 
+.boxes {
+    padding: 50px;
+    color: #000000;
+    margin-top: 25%;
+    margin-left: 18%;
+    margin-right: 18%;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding: 0;
+}
+
 .box {
-    height: 390px;
-    width: 440px;
-    border: 1px solid black;
+    background-size: 50px 50px;
+    height: 440px;
+    background-color: #fff;
     border-radius: 15px;
-    color: black;
-    background-color: white;
+    margin: 20px;
+    padding: 5px;
+}
+
+.box img {
+    width: 340px;
+    height: 160px;
 }
