@@ -91,20 +91,25 @@ a {
     margin-left: 18%;
     margin-right: 18%;
     display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-columns: 30% 30% 30%;
     padding: 0;
 }
 
 .box {
     background-size: 50px 50px;
+    background-color: white;
     height: 440px;
-    background-color: #fff;
     border-radius: 15px;
     margin: 20px;
     padding: 5px;
+    display: grid;
 }
 
 .box img {
     width: 340px;
     height: 160px;
+    border-radius: 15px;
+    justify-self: center;
+    margin-top: 20px
 }
+
